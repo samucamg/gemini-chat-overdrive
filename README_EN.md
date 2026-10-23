@@ -21,6 +21,7 @@
 | **Serena** | `/serena` | Semantic code analysis via LSP (definitions, references, symbols) |
 | **Context7** | `/context7` | Real-time queries for up-to-date documentation on external libraries |
 | **GitHub (Optional)** | `/github` | Access repos, PRs, and issues using a Personal Access Token |
+| **Playwright** | `/playwright` | Headless browser automation, end-to-end testing, clicks, forms & screenshots |
 
 ---
 

@@ -21,6 +21,7 @@ O **Gemini Chat Overdrive** transforma o chat web do Google Gemini em um ambient
 | **Serena** | `/serena` | Análise semântica de código por LSP (definições, referências, símbolos) |
 | **Context7** | `/context7` | Busca documentação atualizada e oficial de bibliotecas em tempo real |
 | **GitHub (Opcional)** | `/github` | Acesso a repositórios, PRs e issues via token pessoal |
+| **Playwright** | `/playwright` | Automação e testes web end-to-end em navegador headless (cliques, formulários, prints) |
 
 ---
 
