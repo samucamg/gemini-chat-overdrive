@@ -1,0 +1,39 @@
+{
+  "name": "gemini-chat-overdrive-mcp-bridge",
+  "version": "2.0.0",
+  "description": "Windows MCP bridge for Gemini with Notebook instructions and private local configuration",
+  "main": "runner.js",
+  "scripts": {
+    "start": "node runner.js",
+    "setup": "node setup.js",
+    "setup:serena": "node setup.js --serena",
+    "connectors": "node connectors.js",
+    "doctor": "node healthcheck.mjs",
+    "smoke": "node healthcheck.mjs --smoke",
+    "test": "node --test test/*.test.js",
+    "release:check": "node release.js --check",
+    "release:pack": "node release.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "@modelcontextprotocol/server-filesystem": "1.0.0",
+    "@upstash/context7-mcp": "4.4.2",
+    "@wonderwhy-er/desktop-commander": "0.3.0",
+    "chrome-devtools-mcp": "1.11.0",
+    "supergateway": "4.2.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "overrides": {
+    "md-to-pdf": {
+      "chokidar": "^4.0.3"
+    },
+    "exceljs": {
+      "uuid": "^11.1.1"
+    },
+    "@modelcontextprotocol/sdk": "$@modelcontextprotocol/sdk",
+    "@modelcontextprotocol/client": "2.3.1"
+  }
+}

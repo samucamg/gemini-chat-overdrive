@@ -1,0 +1,186 @@
+[
+  {
+    "path": ".env.example",
+    "sha256": "5b1c78ca8e3640c65d935c2122b16091ccb6b1517d0e9f1bb782507b8dbef991"
+  },
+  {
+    "path": ".github/workflows/ci.yml",
+    "sha256": "61109ed4bfe07c567acdb60b89962ea25b494c368ffa2e5d03cacdb0f10a4b42"
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "ec4eceadb0ee55f8bf56014ee501f54a315c8f94ce99c95adabc61373ded5de6"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "sha256": "3f81fccd550ab025c3fd7c905b3e550e975544be162c886c0507216335629c0d"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "sha256": "7272da1d1b6ca8c7ae1f587e7e2e14632c9c7f9a795dff94c8efd25f6c55e40c"
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "e8a4f831732500a829f0caf2b60cb1bf0668ff504f6a9f552a4d8e72eb770d88"
+  },
+  {
+    "path": "README.md",
+    "sha256": "e013163a8e828d2102b46441768873aa7df473b0dc4f0ad511537e2b0caf8b8e"
+  },
+  {
+    "path": "README_EN.md",
+    "sha256": "bb0836ca41d7a678fb12d140dac144c8a6fe044a1ea7d18c4f6e29e97015a2b8"
+  },
+  {
+    "path": "SECURITY.md",
+    "sha256": "71718d2327c827e0ced15bb45813a78451eed6e2b791bca95b483fba7b8d51b1"
+  },
+  {
+    "path": "configs/mcp-servers.json",
+    "sha256": "328a10ea5efe67b2ebc345ed212e53da82d3a8441339ab7beb8e48b5e52a61c3"
+  },
+  {
+    "path": "configs/release-manifest.json",
+    "sha256": "e752a7f5d262ed121a09b4c0823d105efa386873ee79500cfe1e48e0f966d3ed"
+  },
+  {
+    "path": "docs/01-conectores-e-notebooks.md",
+    "sha256": "7be0c72776518b8db69e42c9ee208124c09eeb528380fc152471349afcc786c3"
+  },
+  {
+    "path": "docs/02-n8n-mcp-hub.md",
+    "sha256": "ae7137bfa74f6267a2a3feddcdfeaf4d6bb4b94bbca797f68733985033fdc585"
+  },
+  {
+    "path": "docs/03-cloudflare-tunnel-setup.md",
+    "sha256": "bcfe6a0cb7580b46ee2d6f43a62a2ed880f9e0187bb1aa57568e7e90ba6ad087"
+  },
+  {
+    "path": "docs/04-filesystem-e-local-mcp.md",
+    "sha256": "3239c8d373448eb8a57a6e42a4d9f0351c97775a879592afb039a86126b410d4"
+  },
+  {
+    "path": "docs/05-prompt-engineering-chat.md",
+    "sha256": "7f41a8af7fafd32eefdf53b9d9f1f0ad7a16d1e471080ed885e91b432de2a7cc"
+  },
+  {
+    "path": "docs/06-catalogo-mcps-agente.md",
+    "sha256": "4ffc5c05a725f5d9aea5f1923f22c8e1b513c875f3b1d32f96d32a8d639d99ad"
+  },
+  {
+    "path": "docs/07-seguranca-cloudflare-zero-trust.md",
+    "sha256": "2a13db9edf4be1cd703ba717cc83f722cc45677bb2c279bfc154c775c1acd238"
+  },
+  {
+    "path": "mcp-bridge/.env.example",
+    "sha256": "44fb01f085be6bede4df29889b3095b164e3f37c972c2992f94caf3dc40bf7fb"
+  },
+  {
+    "path": "mcp-bridge/auth-proxy.js",
+    "sha256": "2a782d66a5c1f982051adfa9761f8102b5b68c708b0e53d7f42dfd0903ab94fd"
+  },
+  {
+    "path": "mcp-bridge/config.js",
+    "sha256": "7316e4753e4924ff83a8f22514b335e6e36fc8b1b7bd9eb0e1b9bdeace7ef665"
+  },
+  {
+    "path": "mcp-bridge/connectors.js",
+    "sha256": "9cafb65d9697523541f1f4a897f0b791b3170c9c3d6c8dd354b5c2b44a0c9bf3"
+  },
+  {
+    "path": "mcp-bridge/healthcheck.mjs",
+    "sha256": "239b59f2032f6c3d7a9ce84a16cb8ee076d79e091b5fae878048b68d961ced6e"
+  },
+  {
+    "path": "mcp-bridge/launcher.js",
+    "sha256": "2a782d66a5c1f982051adfa9761f8102b5b68c708b0e53d7f42dfd0903ab94fd"
+  },
+  {
+    "path": "mcp-bridge/package-lock.json",
+    "sha256": "a39f41fc514b153dd70f5a250e55e54e5361d37480de7b2089ea9981c4199add"
+  },
+  {
+    "path": "mcp-bridge/package.json",
+    "sha256": "3141599bcc0fe50e0103e42c02b5dc158ee262a07960cdfd5e3aaa542c8abee5"
+  },
+  {
+    "path": "mcp-bridge/proxy.js",
+    "sha256": "ebf2d66f86b404fbfec964c773b5caf358085216d692a00fcf85825ff20e5141"
+  },
+  {
+    "path": "mcp-bridge/release.js",
+    "sha256": "17f9c20236df26ea2b7afa87913710791454d56930ebb058159cc189b18c3ba3"
+  },
+  {
+    "path": "mcp-bridge/runner.js",
+    "sha256": "ef00f7b643d07fc5f9d499029764b7b346ce48c17ef15492a2b64fd99ef0cea9"
+  },
+  {
+    "path": "mcp-bridge/secure-server.js",
+    "sha256": "2a782d66a5c1f982051adfa9761f8102b5b68c708b0e53d7f42dfd0903ab94fd"
+  },
+  {
+    "path": "mcp-bridge/setup.js",
+    "sha256": "1a584697eae8352eaa2083bdaeacf66d2b1914319dd28ba374dc6c7f1942837a"
+  },
+  {
+    "path": "mcp-bridge/ssh-server.mjs",
+    "sha256": "401b099dfc927964a3947b7b23911a169c2938e5a2d22e8d32ec8cf3b9cb6810"
+  },
+  {
+    "path": "mcp-bridge/test/proxy.test.js",
+    "sha256": "c370c38a3631db89348373e3b240047adf9debed8e9cd9dc4506a1daa09e6573"
+  },
+  {
+    "path": "templates/iniciar-conversa.md",
+    "sha256": "e982f8fbd8bc80847b42dbf0d209ac8d154f9bc57535a934f2364742edf85080"
+  },
+  {
+    "path": "templates/notebook-instrucoes.md",
+    "sha256": "3cc9806c133a551144cdebbfc63ae03b6e1bec5cd757db96c83b5ac3bc05face"
+  },
+  {
+    "path": "templates/projeto.md",
+    "sha256": "4cc4479efdef65406176c070c5b268255f7ae1ee03220d3dd7926dc1e360a5b2"
+  },
+  {
+    "path": "windows-scripts/start-all.bat",
+    "sha256": "4a24a5342fa37189fbe99359a1481a9a40c9114555484129dd37cebc0f775616"
+  },
+  {
+    "path": "windows-scripts/start-chrome-debug.bat",
+    "sha256": "06b9e4c0fb852c03bd41ee6895bb2cb279c43b99ae191064bf85e81668e3eb0a"
+  },
+  {
+    "path": "windows-scripts/start-mcp-hub.bat",
+    "sha256": "dd976ad1232f7c23b4df1cff2f42d893fe8067895f249e7bfd57c72cd880be41"
+  },
+  {
+    "path": "windows-scripts/start-secure-devtools.bat",
+    "sha256": "dd976ad1232f7c23b4df1cff2f42d893fe8067895f249e7bfd57c72cd880be41"
+  },
+  {
+    "path": "windows-scripts/start-tunnel.bat",
+    "sha256": "dd976ad1232f7c23b4df1cff2f42d893fe8067895f249e7bfd57c72cd880be41"
+  },
+  {
+    "path": "windows-scripts/test-mcp-endpoint.ps1",
+    "sha256": "8a9eac4436dfd163d5a7934d468fafcce3152425c60f37dc3c20922363b3d59e"
+  },
+  {
+    "path": "tools/gemini-auto-allow-extension/manifest.json",
+    "sha256": "2c039e060ecd62f971d56e79f9677e61f28a558e84f3407328b08d6e757ec80f"
+  },
+  {
+    "path": "tools/gemini-auto-allow-extension/content.js",
+    "sha256": "0986800b5f38755b0e6636a4a5db9431e147c9d3d582acc0055c3eed6b7a0850"
+  },
+  {
+    "path": "tools/gemini-auto-allow-extension/icon.png",
+    "sha256": "894c1974ecbd838e3a3918019440e2d3d1ac77c03b05a35d41c539f76706b1df"
+  },
+  {
+    "path": "tools/gemini-mcp-auto-allow.user.js",
+    "sha256": "a6cff69b2c26c83d16cf3495b771ae48243569eae759760c39610e00f7d8b729"
+  }
+]

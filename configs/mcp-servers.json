@@ -1,0 +1,39 @@
+{
+  "description": "Reference commands for stdio clients; Gemini uses HTTPS URLs from npm run connectors. Replace project paths before using.",
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem@1.0.0",
+        "D:\\Projetos\\meu-projeto"
+      ]
+    },
+    "terminal": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@wonderwhy-er/desktop-commander@0.3.0"
+      ]
+    },
+    "serena": {
+      "command": "serena",
+      "args": [
+        "start-mcp-server",
+        "--agent-interface",
+        "tools",
+        "--language-backend",
+        "LSP",
+        "--project",
+        "D:\\Projetos\\meu-projeto"
+      ]
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@4.4.2"
+      ]
+    }
+  }
+}

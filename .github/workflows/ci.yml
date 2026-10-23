@@ -1,0 +1,19 @@
+name: Verify public distribution
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: mcp-bridge
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: mcp-bridge/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - run: npm run release:check
+      - run: npm run release:pack

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini MCP Overdrive - Auto Allow",
+  "version": "1.0.0",
+  "description": "Aprova automaticamente ferramentas MCP no Gemini Web (evita cliques repetidos em Permitir)",
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://gemini.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
