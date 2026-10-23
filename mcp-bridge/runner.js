@@ -74,7 +74,7 @@ async function main() {
     const gatewayConfig = path.join(runtime, `${process.pid}-${service.id}.json`);
     fs.writeFileSync(gatewayConfig, JSON.stringify({
       host: '127.0.0.1', port: service.port, outputTransport: 'streamableHttp', streamableHttpPath: service.route,
-      stateful: ['terminal', 'serena'].includes(service.id), sessionTimeout: 1800000,
+      stateful: ['terminal', 'serena', 'playwright'].includes(service.id), sessionTimeout: 1800000,
       mcpServers: { [service.id]: { path: '/', command: service.command[0], args: service.command.slice(1), cwd: config.project } },
     }));
     const child = launch(process.execPath, [gateway, '--config', gatewayConfig], config);

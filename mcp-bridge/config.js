@@ -32,6 +32,7 @@ function createConfig(env = process.env) {
     { id: 'serena', name: 'Serena', route: '/serena', command: [env.SERENA_COMMAND || 'serena', 'start-mcp-server', '--context', 'agent', '--agent-interface', 'tools', '--language-backend', 'LSP', '--project', project, '--enable-web-dashboard', 'false', '--open-web-dashboard', 'false'] },
     { id: 'context7', name: 'Context7', route: '/context7', command: node(mod('@upstash', 'context7-mcp', 'dist', 'index.js')) },
     { id: 'github', name: 'GitHub', route: '/github', remote: 'https://api.githubcopilot.com/mcp/', headers: { Authorization: `Bearer ${env.GITHUB_PERSONAL_ACCESS_TOKEN || ''}` } },
+    { id: 'playwright', name: 'Playwright', route: '/playwright', command: node(mod('@playwright', 'mcp', 'cli.js'), '--headless') },
   ];
   for (const id of enabled) if (!definitions.some(d => d.id === id)) throw new Error(`MCP desconhecido: ${id}`);
   if (enabled.includes('github') && !env.GITHUB_PERSONAL_ACCESS_TOKEN) throw new Error('Defina GITHUB_PERSONAL_ACCESS_TOKEN para github; ou use OAuth direto no Gemini.');

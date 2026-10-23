@@ -17,6 +17,7 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.32.1",
     "@modelcontextprotocol/server-filesystem": "1.0.0",
+    "@playwright/mcp": "^0.0.83",
     "@upstash/context7-mcp": "4.4.2",
     "@wonderwhy-er/desktop-commander": "0.3.0",
     "chrome-devtools-mcp": "1.11.0",

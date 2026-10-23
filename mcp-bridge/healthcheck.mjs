@@ -28,6 +28,7 @@ for (const service of config.services) {
         serena: ['get_current_config', {}],
         context7: ['resolve-library-id', { libraryName: 'node', query: 'Node.js fs readFile documentation' }],
         github: ['get_me', {}],
+        playwright: ['browser_tabs', {}],
       };
       const [name, args] = calls[service.id];
       if (!listed.tools.some(t => t.name === name)) throw new Error(`Ferramenta de smoke indisponivel: ${name}`);
